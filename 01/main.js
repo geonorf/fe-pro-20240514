@@ -1,15 +1,20 @@
 // Number
-let Value1 = 1;
-let SomeVal = 123;
+let UserAge  = 18;
+let Value1   = 1;
+let SomeVal  = 123;
 let zero_val = 0;
+let newValue = SomeVal + 10;
 
 // Strings
 let user_mail = "tempuser@mail.com";
+let user_age  = `User age: ${UserAge + 5}`
 let someTextWithMail = `Mail to: ${user_mail}`;
 
 // Display in Console
 console.log(Value1);
+console.log(newValue);
 console.log(user_mail);
+console.log(user_age);
 console.log(someTextWithMail);
 
 // NaN
