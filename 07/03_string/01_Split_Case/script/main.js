@@ -1,0 +1,2 @@
+let someStringArr = 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua'.split(' ');
+console.log(`Новий масив: ${someStringArr.map(word => word.toUpperCase())}`);
