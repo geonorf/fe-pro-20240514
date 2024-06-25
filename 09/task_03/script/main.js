@@ -8,7 +8,7 @@ function createFifty(motherElem){
     }
 }
 
-window.onload = function (){
+window.onload = function(){
     let mElem = document.querySelector('.mContainer');
 
     let newContainer = document.createElement('div');
@@ -20,6 +20,13 @@ window.onload = function (){
     createFifty(newContainer);
 
     mElem.appendChild(newContainer);
+
+    console.log(mElem);
+
+    [...mElem.childNodes][1].forEach((divElem, index) => {
+        divElem.classList.add('circle-elemt');
+        if (!(index%2 === 0)){
+            divElem.classList.add('test');
+        }
+    });
 }
-
-
